@@ -1,0 +1,174 @@
+body {
+  font-family: sans-serif;
+  width: 1040px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+header p {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav {
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-icon {
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  border: 1px solid black;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.158);
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.email {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.email h1 {
+  text-transform: uppercase;
+}
+
+.email-entry {
+  width: 30%;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid black;
+  outline: yellow;
+}
+
+.email-entry .features-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.features {
+  margin: 0 auto;
+  width: 600px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-box {
+  margin: 20px 40px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  border-radius: 3px;
+  box-shadow: 4px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+iframe {
+  margin-left: 25%;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.pricing-box h2 {
+  background-color: black;
+  color: white;
+  padding: 10px 50px;
+  margin-top: 0;
+}
+
+.pricing-box button {
+  align-self: center;
+  width: 70px;
+  background-color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.pricing-box button:link,
+.pricing-box button:visited {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.pricing-box button:hover,
+.pricing-box button:active {
+  background-color: white;
+  color: black;
+}
+
+.pricing-box ul {
+  align-items: center;
+  margin-left: 12px;
+}
+
+footer {
+  text-align: right;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
